@@ -10,6 +10,6 @@ Se debe entrar al directorio del proyecto y correr el comando **make** en termin
 **Para ejecutarse**
 Se utiliza el comando dado en el enunciado de la tarea:
 
-    gunzip -c  * *El trace a utilizar* * | cache_katya -t # -l # -a #
+    gunzip -c  * El trace a utilizar * | cache_katya -t # -l # -a #
 
   donde, -t es el tamaño del cache en **bytes**, -l el tamaño de líneas en **bytes** y -a la asociatividad. En # los valores deseados.
