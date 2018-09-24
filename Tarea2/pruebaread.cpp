@@ -74,4 +74,5 @@ cout << "Store misses: " << dec << prueba_cache->store_misses << '\n';
 cout << "Load hits: " << dec << prueba_cache->load_hits << '\n';
 cout << "Load misses: " << dec << prueba_cache->load_misses << '\n';
 cout << "Dirty evictions: " << dec << prueba_cache->contador_dirty_evictions <<'\n';
+cout << "Overall miss rate: " << ((float)(prueba_cache->store_misses+prueba_cache->load_misses)/(float)(prueba_cache->store_misses+prueba_cache->store_hits+prueba_cache->load_misses+prueba_cache->load_hits)) <<'\n';
 }
